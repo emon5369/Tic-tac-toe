@@ -92,3 +92,50 @@ h1{
 .hide{
     display: none;
 }
+
+@media screen and (max-width: 900px) {
+  .mainContainer{
+    margin-top: 10%;
+    overflow: hidden;
+  }
+
+  .container {
+    height: 65vh;
+  }
+  
+  .game {
+    height: 60vh;
+    width: 60vh;
+    gap: 10px;
+  }
+  
+  .box {
+    height: 10rem;
+    width: 10rem;
+    font-size: 120px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .mainContainer{
+    margin-top: 30%;
+    overflow: hidden;
+  }
+
+  .container {
+    height: 45vh;
+  }
+  
+  .game {
+    height: 40vh;
+    width: 40vh;
+    gap: 8px;
+  }
+  
+  .box {
+    height: 6rem;
+    width: 6rem;
+    font-size: 80px;
+  }
+  
+}
