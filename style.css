@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1{
+  padding: 15px;
+  color: whitesmoke;
+  background-color: rgb(75, 9, 43);
+}
+
+.mainContainer {
+  background-color: rgb(64, 6, 67);
+  width: fit-content;
+  display: inline-block;
+  border: 2px dashed rgb(123, 240, 227);
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.box {
+  background-color: white;
+  color: red;
+  height: 9rem;
+  width: 9rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 20px black;
+  font-size: 120px;
+}
+.box:hover{
+  background-color: rgb(220, 186, 186);
+}
+
+.line{
+  text-decoration: line-through;
+}
+
+.game {
+  height: 70vh;
+  width: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.container {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#reset {
+  padding: 10px 25px;
+  font-size: larger;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: turquoise;
+  border: none;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+#reset:hover{
+  background-color: red;
+  color: white;
+}
+
+#play{
+    padding: 10px 15px;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    background-color:turquoise;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+#play:hover{
+  background-color: green;
+  color: white;
+}
+
+.msg{
+    font-size: 25px;
+    font-weight: bold;
+    color:yellowgreen;
+    margin-top: 10px;
+}
+
+.hide{
+    display: none;
+}
